@@ -140,32 +140,32 @@ export const navItems = [
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
+      name: "NextJs",
       img: "/cloud.svg",
       nameImg: "/cloudName.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
+      name: "tailwindcss",
+      img: "/tailwindcss.svg",
       nameImg: "/appName.svg",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
+      name: "Typescript",
+      img: "/typescript.svg",
       nameImg: "/hostName.svg",
     },
     {
       id: 4,
-      name: "stream",
-      img: "/s.svg",
+      name: "JavaScript",
+      img: "/javascript.svg",
       nameImg: "/streamName.svg",
     },
     {
       id: 5,
-      name: "docker.",
-      img: "/dock.svg",
+      name: "ReactJs",
+      img: "/react-2.svg",
       nameImg: "/dockerName.svg",
     },
   ];
