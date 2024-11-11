@@ -141,7 +141,7 @@ export const navItems = [
     {
       id: 1,
       name: "NextJs",
-      img: "/cloud.svg",
+      img: "/nextjs.svg",
       nameImg: "/cloudName.svg",
     },
     {
