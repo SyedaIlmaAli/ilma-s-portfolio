@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "Resume Builder",
       des: "A customizable resume builder built with TypeScript, allowing users to create professional resumes by filling out fields. Designed with an intuitive interface for easy editing and real-time preview.",
-      img: "/resume.png",
+      img: "/Resume.png",
       iconLists: ["/html.svg", "/css-3.svg", "/javascript.svg", "/ts.svg"],
       link: "https://resume-builder-by-ilma.vercel.app/",
     },
