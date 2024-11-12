@@ -75,7 +75,7 @@ export const navItems = [
       title: "Resume Builder",
       des: "A customizable resume builder built with TypeScript, allowing users to create professional resumes by filling out fields. Designed with an intuitive interface for easy editing and real-time preview.",
       img: "/resume.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/html.svg", "/css-3.svg", "/javascript.svg", "/ts.svg"],
       link: "https://resume-builder-by-ilma.vercel.app/",
     },
     {
@@ -83,7 +83,7 @@ export const navItems = [
       title: "Music Academy Website",
       des: "An engaging platform for music education, offering courses, resources, and community for aspiring musicians of all levels.",
       img: "/music.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/logo-dark.png"],
       link: "https://music-academy-steel.vercel.app/",
     },
     {
@@ -91,7 +91,7 @@ export const navItems = [
       title: "Aura Tales - An Ecommerce Website",
       des: " A stylish e-commerce store offering curated women's fashion with simple, elegant product selections.",
       img: "/aura.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/redux.svg", "/shadcn-ui.svg"],
       link: "https://ecommerce-website-seven-taupe.vercel.app/",
     },
     {
@@ -99,7 +99,7 @@ export const navItems = [
       title: "Panaverse DAO Clone",
       des: "A web application replicating the features and functionalities of Panaverse DAO, aimed at community building and collaboration.",
       img: "/panaverse.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://panaverse-dao-clone-kpu8.vercel.app/",
     },
   ];
