@@ -107,33 +107,33 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Ilma was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ilma's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ilma is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Ilma was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ilma's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ilma is the ideal partner.",
+      name: "Arham Aijaz",
+      title: "Branding Expert",
     },
     {
       quote:
-        "Collaborating with Ilma was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ilma's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ilma is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Ilma was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ilma's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ilma is the ideal partner.",
+      name: "Arham Aijaz",
+      title: "Branding Expert",
     },
     {
       quote:
-        "Collaborating with Ilma was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ilma's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ilma is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Ilma was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ilma's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ilma is the ideal partner.",
+      name: "Arham Aijaz",
+      title: "Branding Expert",
     },
     {
       quote:
-        "Collaborating with Ilma was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ilma's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ilma is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Ilma was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ilma's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ilma is the ideal partner.",
+      name: "Arham Aijaz",
+      title: "Branding Expert",
     },
     {
       quote:
-        "Collaborating with Ilma was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ilma's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ilma is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Ilma was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ilma's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ilma is the ideal partner.",
+      name: "Arham Aijaz",
+      title: "Branding Expert",
     },
   ];
   
@@ -173,29 +173,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "UI/UX Development",
+      desc: "Developed the entire frontend of music academy website using the latest and modern technoligies.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Product Building",
+      desc: "I independently developed a resume builder that has enabled numerous users to quickly create professional-quality resumes.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Senior Student At GIAIC",
+      desc: "As a dedicated and passionate web developer, I help students with my knowledge and skills which they need to excel in the dynamic field of web development.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Frontend Developer",
+      desc: "Developed and maintained user-facing features using modern frontend technologies in Aura Tales.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
