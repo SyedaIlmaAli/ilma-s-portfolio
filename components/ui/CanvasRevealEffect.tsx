@@ -12,10 +12,6 @@ export const CanvasRevealEffect = ({
   dotSize,
   showGradient = true,
 }: {
-  /**
-   * 0.1 - slower
-   * 1.0 - faster
-   */
   animationSpeed?: number;
   opacities?: number[];
   colors?: number[][];
@@ -209,17 +205,34 @@ const ShaderMaterial = ({
   });
 
   type Uniform = {
-    value: number | number[] | number[][] | THREE.Vector2 | THREE.Vector3 | THREE.Vector3[];
+    value:
+      | number
+      | number[]
+      | number[][]
+      | THREE.Vector2
+      | THREE.Vector3
+      | THREE.Vector3[];
     type: "uniform1f" | "uniform3f" | "uniform1fv" | "uniform3fv" | "uniform2f";
   };
-  
+
   const getUniforms = () => {
-    // Update preparedUniforms type to handle Vector3[] for the "uniform3fv" case
-    const preparedUniforms: Record<string, { value: number | THREE.Vector2 | THREE.Vector3 | number[] | number[][] | THREE.Vector3[], type: string }> = {};
-  
+    const preparedUniforms: Record<
+      string,
+      {
+        value:
+          | number
+          | THREE.Vector2
+          | THREE.Vector3
+          | number[]
+          | number[][]
+          | THREE.Vector3[];
+        type: string;
+      }
+    > = {};
+
     for (const uniformName in uniforms) {
       const uniform = uniforms[uniformName] as Uniform;
-  
+
       switch (uniform.type) {
         case "uniform1f":
           preparedUniforms[uniformName] = { value: uniform.value, type: "1f" };
@@ -236,7 +249,9 @@ const ShaderMaterial = ({
         case "uniform3fv":
           // Handling for array of Vector3 objects
           preparedUniforms[uniformName] = {
-            value: (uniform.value as number[][]).map((v: number[]) => new THREE.Vector3().fromArray(v)),
+            value: (uniform.value as number[][]).map((v: number[]) =>
+              new THREE.Vector3().fromArray(v)
+            ),
             type: "3fv",
           };
           break;
@@ -255,8 +270,8 @@ const ShaderMaterial = ({
     preparedUniforms["u_time"] = { value: 0, type: "1f" };
     preparedUniforms["u_resolution"] = {
       value: new THREE.Vector2(size.width * 2, size.height * 2),
-      type: "2f", // Set the correct type for u_resolution
-    }; // Inilize u_resolution
+      type: "2f",
+    };
     return preparedUniforms;
   };
 

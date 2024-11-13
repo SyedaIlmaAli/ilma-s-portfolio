@@ -11,8 +11,8 @@ export const metadata: Metadata = {
   title: "Ilma's Portfolio",
   description: "Modern & Minimal Ilma's Portfolio",
   icons: {
-    icon: ["./favicon.ico"]
-  }
+    icon: ["./favicon.ico"],
+  },
 };
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-        <FloatingNav navItems={navItems}/>
+          <FloatingNav navItems={navItems} />
           {children}
         </ThemeProvider>
       </body>

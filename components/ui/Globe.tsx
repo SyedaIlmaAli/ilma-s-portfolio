@@ -91,8 +91,6 @@ export function Globe({ globeConfig, data }: WorldProps) {
     ...globeConfig,
   };
 
-  
-
   const _buildMaterial = () => {
     if (!globeRef.current) return;
 
@@ -130,7 +128,6 @@ export function Globe({ globeConfig, data }: WorldProps) {
       });
     }
 
-    // remove duplicates for same lat and lng
     const filteredPoints = points.filter(
       (v, i, a) =>
         a.findIndex((v2) =>
@@ -149,7 +146,6 @@ export function Globe({ globeConfig, data }: WorldProps) {
       _buildMaterial();
     }
   }, [globeRef.current]);
-
 
   const startAnimation = () => {
     if (!globeRef.current || !globeData) return;
@@ -201,7 +197,14 @@ export function Globe({ globeConfig, data }: WorldProps) {
         });
       startAnimation();
     }
-  }, [globeData, defaultProps.atmosphereAltitude, defaultProps.polygonColor, defaultProps.showAtmosphere, startAnimation, defaultProps.atmosphereColor]);
+  }, [
+    globeData,
+    defaultProps.atmosphereAltitude,
+    defaultProps.polygonColor,
+    defaultProps.showAtmosphere,
+    startAnimation,
+    defaultProps.atmosphereColor,
+  ]);
 
   useEffect(() => {
     if (!globeRef.current || !globeData) return;
