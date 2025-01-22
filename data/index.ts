@@ -108,6 +108,22 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://panaverse-dao-clone-kpu8.vercel.app/",
   },
+  {
+    id: 5,
+    title: "IlmaBlog - A Dynamic Blog",
+    des: "IlmaBlog is a dynamic blog platform built with Next.js and Tailwind CSS, offering a clean and responsive design. It highlights my ability to create user-friendly, content-focused web applications.",
+    img: "/dynamicblog.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shadcn-ui.svg"],
+    link: "https://dynamic-blog-by-ilma.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Avion - An Ecommerce Marketplace",
+    des: "Avion is a furniture brand offering customizable and ready-made pieces, built with Next.js, Tailwind CSS, ShadCN, and Sanity.",
+    img: "/avion-marketplace.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shadcn-ui.svg", "/sanity.svg"],
+    link: "https://avion-marketplace.vercel.app/",
+  },
 ];
 
 export const testimonials = [
